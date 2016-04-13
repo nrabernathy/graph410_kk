@@ -1,0 +1,356 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>index</title>
+
+<!-- Include meta tag to ensure proper rendering and touch zooming -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Include jQuery Mobile stylesheets -->
+<link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css">
+
+<!-- Include the jQuery library -->
+<script src="js/jquery-1.12.3.min.js"></script>
+
+<!-- Include the jQuery Mobile library -->
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+
+<link rel="stylesheet" href="css/themes/cupcaketheme2.css" />
+<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+<link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> 
+<link  href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet"> 
+<script src="js/fotorama.js"></script> 
+</head>
+<body>
+<!-- HOME PAGE -->
+	<div data-role="page" id="Home">
+    <!-- HEADER -->
+		<div data-role="header">
+        <div class="imgCenter"><img src="images/cupcake_logo.png" alt="Cupcake Logo" width="200" height="200"/></div> 
+            <!-- SOCIAL MEDIA BUTTON -->
+            <a href="#social" class="ui-btn ui-btn-inline ui-btn-right ui-btn-corner-all">Social</a>
+    <!-- NAVIGATION BAR -->      
+        <div data-role="navbar">
+        	<ul>
+            	<li><a href="#Home" data-icon="home">Home</a></li>
+                <li><a href="#About" data-icon="info">About</a></li>
+                <li><a href="#Menu" data-icon="check">Menu</a></li>
+                <li><a href="#Location" data-icon="star">Locate</a></li>
+                <li><a href="#Contact" data-icon="forward">Contact</a></li>
+            </ul>
+        </div>
+	</div>
+    <!-- MAIN CONTENT -->
+    	<div data-role="main" class="ui-content">
+        <div class="headerCenter"><h4>Welcome to Sweet Tooth Cupcakes!</h4></div>
+        <!-- SLIDESHOW -->
+            <div class="fotorama" data-loop="true" data-autoplay="true">
+            	<img src="images/pastel_cupcakes2.jpg"/>	
+                <img src="images/cupcake_display3.jpg"/>
+                <img src="images/cupcake_display2.jpg"/>        
+                <img src="images/cupcake_making.jpg"/>     
+			</div>
+            <!-- COLLAPSIBLE LIST VIEW 
+              	<div data-role="collapsible">
+                <h2>Header</h2>
+                <ol data-role="listview" data-inset="true">
+                	<li data-role="list-divider">Header 1</li>
+                   		<li>number 1</li>  
+                        <li>number 2</li>
+                        <li>number 3</li>
+                    <li data-role="list-divider">Header 2</li>
+                    	<li>number 4</li>
+                        <li>number 5</li>
+                        <li>number 6</li>
+                 </ol>
+                 </div> -->                               
+        </div>
+    <!-- FOOTER -->
+		<div data-role="footer">
+			<h6>&copy; Copyright 2016</h6>
+		</div>
+     <!-- SOCIAL MEDIA PANEL --> 
+        <div data-role="panel" id="social" data-position="right" data-display="overlay">
+    		<h3>Social Media</h3>
+    		<a href="http://www.facebook.com" class="ui-btn ui-btn-corner-all ui-btn-icon-top">Facebook</a>
+    		<a href="http://www.twitter.com" class="ui-btn ui-btn-corner-all ui-btn-icon-top">Twitter</a>
+    		<a href="http://www.instagram.com" class="ui-btn ui-btn-corner-all ui-btn-icon-top">Instagram</a>
+        </div>
+</div>
+    
+	<!-- ABOUT PAGE -->
+	<div data-role="page" id="About">
+	<!-- HEADER -->
+		<div data-role="header">
+            <div class="imgCenter"><img src="images/cupcake_logo.png" alt="Cupcake Logo" width="200" height="200"/></div>
+            <!-- SOCIAL MEDIA BUTTON -->
+        		<a href="#social2" class="ui-btn ui-btn-inline ui-btn-right ui-btn-corner-all">Social</a>
+    <!-- NAVIGATION BAR -->
+        <div data-role="navbar">
+        	<ul>
+            	<li><a href="#Home" data-icon="home">Home</a></li>
+                <li><a href="#About" data-icon="info">About</a></li>
+                <li><a href="#Menu" data-icon="check">Menu</a></li>
+                <li><a href="#Location" data-icon="star">Locate</a></li>
+                <li><a href="#Contact" data-icon="forward">Contact</a></li>
+            </ul>
+        </div>
+        </div>
+    <!-- MAIN CONTENT -->
+		<div data-role="main" class="ui-content">
+			<div class="headerCenter"><h3>Our Story</h3></div>
+            <div class="pOurStory"><p>Sweet Tooth Cupcakes is a cupcake shop and bakery with three locations throughout Southeastern Michigan. Sweet Tooth cupcakes are gourmet cupcakes baked fresh daily, using real butter, real eggs, and real milk. With over 40 different creatively indulgent flavor offerings daily, there is sure to be a flavor for everyone. Our goal is to get our delectable cupcakes in the mouths of people across the country, and allow them to enjoy the happiness of eating a Sweet Tooth cupcake.</p></div>
+        <!-- SLIDESHOW -->
+             <div class="fotorama" data-loop="true" data-autoplay="true" >
+            	<img src="images/cupcake_shop.jpg"/>	
+                <img src="images/cupcake_making2.jpg"/>
+                <img src="images/cupcake_display.jpg"/>        
+                <img src="images/pastel_cupcakes.jpg"/>     
+			</div>
+		</div>    
+    <!-- FOOTER -->
+		<div data-role="footer">
+			<h6>&copy; Copyright 2016</h6>
+		</div>
+    <!-- SOCIAL MEDIA PANEL --> 
+        <div data-role="panel" id="social2" data-position="right" data-display="overlay">
+    		<h3>Social Media</h3>
+    		<a href="http://www.facebook.com" class="ui-btn ui-btn-corner-all ui-btn-icon-top">Facebook</a>
+    		<a href="http://www.twitter.com" class="ui-btn ui-btn-corner-all ui-btn-icon-top">Twitter</a>
+    		<a href="http://www.instagram.com" class="ui-btn ui-btn-corner-all ui-btn-icon-top">Instagram</a>
+        </div>
+</div>
+
+<!-- MENU PAGE -->
+	<div data-role="page" id="Menu">
+	<!-- HEADER -->
+		<div data-role="header">       
+            <div class="imgCenter"><img src="images/cupcake_logo.png" alt="Cupcake Logo" width="200" height="200"/></div>
+            <!-- SOCIAL MEDIA BUTTON -->
+        		<a href="#social3" class="ui-btn ui-btn-inline ui-btn-right ui-btn-corner-all">Social</a>
+    <!-- NAVIGATION BAR -->
+        <div data-role="navbar">
+        	<ul>
+            	<li><a href="#Home" data-icon="home">Home</a></li>
+                <li><a href="#About" data-icon="info">About</a></li>
+                <li><a href="#Menu" data-icon="check">Menu</a></li>
+                <li><a href="#Location" data-icon="star">Locate</a></li>
+                <li><a href="#Contact" data-icon="forward">Contact</a></li>
+            </ul>
+        </div>
+        </div>
+    <!-- MAIN CONTENT -->
+		<div data-role="main" class="ui-content">
+        	<div class="headerCenter"><h3>Cupcake Categories</h3></div>
+        <!-- COLLAPSIBLE -->
+        	<div data-role="collapsible">
+            	<h2>Chocolate</h2>
+                	<ul>
+                    <img src="images/chocolate_fudge.png"/>
+                		<li><h2>Chocolate Fudge</h2></li>            
+                		<p>Brownie bottom below our delicious devil’s food cake, topped with our scrumptious chocolate fudge frosting.</p>
+                        <hr / class="hrcolor">
+                        <img src="images/choco_peanutbutter.png"/>
+                		<li><h2>Double Chocolate Peanut Butter</h2></li>
+                        <p>Nutter Butter crust below our rich devil’s food cake infused with peanut butter chips, stuffed and topped with peanut butter-buttercream and dipped in our homemade ganache.</p>  
+                        <hr / class="hrcolor"> 
+                        <img src="images/german_chocolate.png"/>  
+                		<li><h2>German Chocolate</h2></li>
+                        <p>Our rich devil’s food cake topped with homemade German chocolate topping, drizzled with ganache and sprinkled with diced pecans.</p>
+                	</ul>
+            </div>
+         <!-- COLLAPSIBLE -->
+        	<div data-role="collapsible">
+            	<h2>Vanilla</h2>
+                	<ul>
+                    	<img src="images/funfetti.png"/>
+                		<li><h2>Funfetti</h2></li>            
+                		<p>Our moist yellow cake sweetened with marshmallow fluff and sprinkles, topped with our delicious marshmallow-vanilla buttercream and sprinkles.</p>
+                        <hr / class="hrcolor">
+                      	<img src="images/snickerdoodle.png"/>
+                		<li><h2>Snickerdoodle</h2></li>
+                        <p>Our moist cinnamon-vanilla cake topped with brown sugar buttercream and dusted with cinnamon sugar.</p>   
+                        <hr / class="hrcolor">
+                        <img src="images/toasted_almond.png"/>  
+                		<li><h2>Toasted Almond</h2></li>
+                        <p>Almond cookie crust below our moist almond vanilla cake, topped with almond buttercream and rolled in slivered almonds.</p>
+                	</ul>
+            </div>
+         <!-- COLLAPSIBLE -->
+        	<div data-role="collapsible">
+            	<h2>Fruity</h2>
+                	<ul>
+                    <img src="images/cherrychip.png"/>
+                		<li><h2>Cherry Chip</h2></li>            
+                		<p>Our own cherry chip cake topped with our homemade buttercream and finished with a splash of cherry juice and topped with a maraschino cherry.</p>
+                        <hr / class="hrcolor">
+                        <img src="images/pineapple.png"/>
+                		<li><h2>Pineapple Upside Down</h2></li>
+                        <p>Our super moist pineapple cake topped with pineapple and a maraschino cherry.</p>
+                        <hr / class="hrcolor">
+                        <img src="images/strawberry.png"/>
+                		<li><h2>Strawberry Cheesecake</h2></li>
+                        <p>Our rich yellow cake with a dollop of our homemade cheesecake baked in, topped with strawberries and sprinkled with shortbread cookie crumble.</p>
+                	</ul>
+            </div>
+         <!-- COLLAPSIBLE -->
+        	<div data-role="collapsible">
+            	<h2>Rich & Sweet</h2>
+                	<ul>
+                    	<img src="images/cinnamon_donut.png"/>
+                		<li><h2>Cinnamon Donut</h2></li>            
+                		<p>Cinnamon sugar bottom below our moist cinnamon cake, topped with cinnamon sugar and drizzled with icing, just like a cider mill donut!</p>
+                        <hr / class="hrcolor">
+                        <img src="images/coconut.png"/>
+                		<li><h2>Coconut</h2></li>
+                        <p>Our moist coconut cake topped with rich buttercream and toasted coconut.</p>
+                        <hr / class="hrcolor">
+                        <img src="images/red_velvet.png"/>
+                		<li><h2>Red Velvet Cheesecake</h2></li>
+                        <p>Our homemade, moist red velvet cake with a dollop of cheesecake baked in, topped with our own cream cheese frosting.</p>
+                	</ul>
+            </div>
+    <!-- FOOTER -->
+		<div data-role="footer">
+			<h6>&copy; Copyright 2016</h6>
+		</div>
+    <!-- SOCIAL MEDIA PANEL --> 
+        <div data-role="panel" id="social3" data-position="right" data-display="overlay">
+    		<h3>Social Media</h3>
+    		<a href="http://www.facebook.com" class="ui-btn ui-btn-corner-all ui-btn-icon-top">Facebook</a>
+    		<a href="http://www.twitter.com" class="ui-btn ui-btn-corner-all ui-btn-icon-top">Twitter</a>
+    		<a href="http://www.instagram.com" class="ui-btn ui-btn-corner-all ui-btn-icon-top">Instagram</a>
+        </div>
+</div>
+
+<!-- LOCATION PAGE -->
+	<div data-role="page" id="Location">
+	<!-- HEADER -->
+		<div data-role="header">
+            <div class="imgCenter"><img src="images/cupcake_logo.png" alt="Cupcake Logo" width="200" height="200"/></div>   
+            <!-- SOCIAL MEDIA BUTTON -->
+        		<a href="#social4" class="ui-btn ui-btn-inline ui-btn-right ui-btn-corner-all">Social</a>
+    <!-- NAVIGATION BAR -->
+        <div data-role="navbar">
+        	<ul>
+            	<li><a href="#Home" data-icon="home">Home</a></li>
+                <li><a href="#About" data-icon="info">About</a></li>
+                <li><a href="#Menu" data-icon="check">Menu</a></li>
+                <li><a href="#Location" data-icon="star">Locate</a></li>
+                <li><a href="#Contact" data-icon="forward">Contact</a></li>
+            </ul>
+        </div>
+        </div>
+    <!-- MAIN CONTENT -->
+		<div data-role="main" class="ui-content">
+			<div class="headerCenter"><h3>Visit Our Locations</h3></div>
+            <!-- COLLAPSIBLE -->
+        	<div data-role="collapsible">
+            	<h2>Novi</h2>
+                	<ul>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d94159.70377825241!2d-83.56448086700523!3d42.48111857803566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8824a93db28a996d%3A0xcfb6ceb8958b9bfe!2sNovi%2C+MI!5e0!3m2!1sen!2sus!4v1459466104755" width="150" height="150" frameborder="0" style="border:0" allowfullscreen></iframe>
+                		<li><h2>City of Novi</h2></li>            
+                		<p>45175 Ten Mile Road<br />Novi, MI 48375<br />Tel: 248.735.5628</p>
+                        <hr / class="hrcolor">
+                        <p>Hours:<br />Mon - Fri: 6:00am - 8:00pm<br />Sat - Sun: 8:00am - 6:00pm </p>
+                	</ul>
+            </div>
+            <!-- COLLAPSIBLE -->
+        	<div data-role="collapsible">
+            	<h2>Royal Oak</h2>
+                	<ul>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47060.14498415375!2d-83.1926634839341!3d42.5073023678084!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8824c5f96ccd2bf7%3A0x70fd341efca3310!2sRoyal+Oak%2C+MI!5e0!3m2!1sen!2sus!4v1459466209037" width="150" height="150" frameborder="0" style="border:0" allowfullscreen></iframe>
+                		<li><h2>City of Royal Oak</h2></li>            
+                		<p>211 S. Williams Street<br />Royal Oak, MI 48067<br />Tel: 248.246.3000</p>
+                        <hr / class="hrcolor">
+                        <p>Hours:<br />Mon - Fri: 6:00am - 8:00pm<br />Sat - Sun: 8:00am - 6:00pm </p>
+                	</ul>
+            </div>
+           <!-- COLLAPSIBLE -->
+        	<div data-role="collapsible">
+            	<h2>Troy</h2>
+                	<ul>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d94012.10042058818!2d-83.21826097678333!3d42.579108973112035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8824c40a318bcc13%3A0xb44b00c67e9177a7!2sTroy%2C+MI!5e0!3m2!1sen!2sus!4v1459466321799" width="150" height="150" frameborder="0" style="border:0" allowfullscreen></iframe>
+                		<li><h2>City of Troy</h2></li>            
+                		<p>500 W. Big Beaver Rd.<br />Troy, MI 48084<br />Tel: 248.524.3300</p>
+                        <hr / class="hrcolor">
+                        <p>Hours:<br />Mon - Fri: 6:00am - 8:00pm<br />Sat - Sun: 8:00am - 6:00pm </p>
+                	</ul>
+            </div>
+		</div>
+    <!-- FOOTER -->
+		<div data-role="footer">
+			<h6>&copy; Copyright 2016</h6>
+		</div>
+    <!-- SOCIAL MEDIA PANEL --> 
+        <div data-role="panel" id="social4" data-position="right" data-display="overlay">
+    		<h3>Social Media</h3>
+    		<a href="http://www.facebook.com" class="ui-btn ui-btn-corner-all ui-btn-icon-top">Facebook</a>
+    		<a href="http://www.twitter.com" class="ui-btn ui-btn-corner-all ui-btn-icon-top">Twitter</a>
+    		<a href="http://www.instagram.com" class="ui-btn ui-btn-corner-all ui-btn-icon-top">Instagram</a>
+        </div>
+</div>
+
+<!-- CONTACT PAGE -->
+	<div data-role="page" id="Contact">
+	<!-- HEADER -->
+		<div data-role="header">
+            <div class="imgCenter"><img src="images/cupcake_logo.png" alt="Cupcake Logo" width="200" height="200"/></div>
+        	<a href="#social5" class="ui-btn ui-btn-inline ui-btn-right ui-btn-corner-all">Social</a>
+    <!-- NAVIGATION BAR -->
+        <div data-role="navbar">
+        	<ul>
+            	<li><a href="#Home" data-icon="home">Home</a></li>
+                <li><a href="#About" data-icon="info">About</a></li>
+                <li><a href="#Menu" data-icon="check">Menu</a></li>
+                <li><a href="#Location" data-icon="star">Locate</a></li>
+                <li><a href="#Contact" data-icon="forward">Contact</a></li>
+            </ul>
+        </div>
+        </div>
+    <!-- MAIN CONTENT -->
+		<div data-role="main" class="ui-content">
+			<div class="headerCenter"><h3>Get In Touch</h3></div>
+		</div>
+     <!-- CONTACT FORM --> 
+        <div class="contact"><form method="post" action="#">
+         <label for="fname">First Name</label>
+         <input type="text" name="fname" id="fname" data-clear-btn="true">
+         
+         <label for="lname">Last Name</label>
+         <input type="text" name="lname" id="lname" data-clear-btn="true">
+         
+         <label for="email">E-Mail Address</label>
+         <input type="text" name="email" id="email" placeholder="Ex: myemail@yahoo.com" data-clear-btn="true">
+         
+      	<label for="zcode">Zip Code</label>
+         <input type="text" name="zcode" id="zcode" placeholder="Ex: 48092" data-clear-btn="true" maxlength="5">
+         
+         <label for="comments">Comments</label>
+         <textarea name="message" cols="10" rows="10">
+         </textarea>
+
+         <div class="contactButtons"><input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+         </div></form>
+         </div> 
+    <!-- FOOTER -->
+		<div data-role="footer">
+			<h6>&copy; Copyright 2016</h6>
+		</div>
+    <!-- SOCIAL MEDIA PANEL --> 
+        <div data-role="panel" id="social5" data-position="right" data-display="overlay">
+    		<h3>Social Media</h3>
+    		<a href="http://www.facebook.com" class="ui-btn ui-btn-corner-all ui-btn-icon-top">Facebook</a>
+    		<a href="http://www.twitter.com" class="ui-btn ui-btn-corner-all ui-btn-icon-top">Twitter</a>
+    		<a href="http://www.instagram.com" class="ui-btn ui-btn-corner-all ui-btn-icon-top">Instagram</a>
+        </div>
+
+</div>
+        
+
+</body>
+</html>

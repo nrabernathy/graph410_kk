@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns = "http://www.w3.org/ns/widgets" 
+   xmlns:gap = "http://phonegap.com/ns/1.0" id = "com.tutorialspoint.onlineviewer" version = "1.0">
+   
+   <name>Katherine Klick</name>
+   
+   <description>
+      Graph 410 Example App Using PhoneGap
+   </description>
+   
+   <author href = "http://tutorialspoint.com" email = "katherine.klick@yahoo.com">
+      Tutorials Point
+   </author>
+   
+   <preference name = "permissions" value = "none"/>
+   
+   <icon src = "graph410/cupcake_icon/android/mipmap-ldpi/ic_launcher.png" 
+      gap:platform = "android" gap:qualifier = "ldpi" />
+		
+   <icon src = "graph410/cupcake_icon/android/mipmap-mdpi/ic_launcher.png" 
+      gap:platform = "android" gap:qualifier = "mdpi" />
+		
+   <icon src = "graph410/cupcake_icon/android/mipmap-hdpi/ic_launcher.png" 
+      gap:platform = "android" gap:qualifier = "hdpi" />
+		
+   <icon src = "graph410/cupcake_icon/android/mipmap-xhdpi/ic_launcher.png" 
+      gap:platform = "android" gap:qualifier = "xhdpi" />
+		
+   <icon src = "graph410/cupcake_icon/android/mipmap-xxhdpi/ic_launcher.png" 
+      gap:platform = "android" gap:qualifier = "xxhdpi" />
+   
+   <icon src = "graph410/cupcake_icon/ios/Icon-72.png" gap:platform = "ios" gap:qualifier = ""/>
+   <icon src = "graph410/cupcake_icon/ios/Icon-60.png" gap:platform = "ios" width = "60" height = "60" />
+   <icon src = "graph410/cupcake_icon/ios/Icon-72.png" gap:platform = "ios" width = "72" height = "72" />
+   <icon src = "graph410/cupcake_icon/ios/Applcon.appiconset/Icon-40.png" gap:platform = "ios" width = "40" height = "40" />
+   <icon src = "graph410/cupcake_icon/ios/Icon-72@2x.png" gap:platform = "ios" width = "144" height = "144" />
+   
+</widget>

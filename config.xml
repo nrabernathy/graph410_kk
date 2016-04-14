@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <widget xmlns = "http://www.w3.org/ns/widgets" 
-   xmlns:gap = "http://phonegap.com/ns/1.0" id = "com.tutorialspoint.onlineviewer" version = "1.0">
+   xmlns:gap = "http://phonegap.com/ns/1.0" id = "com.katherineklick.graph410" version = "1.0">
    
-   <name>Katherine Klick</name>
+   <name>Sweet Tooth Cupcakes</name>
    
    <description>
-      Graph 410 Example App Using PhoneGap
+      Cupcake creations and locations
    </description>
    
-   <author href = "http://tutorialspoint.com" email = "katherine.klick@yahoo.com">
-      Tutorials Point
+   <author href = "http://graph410.comxa.com/katherine" email = "katherine.klick@yahoo.com">
+      Katherine Klick
    </author>
    
    <preference name = "permissions" value = "none"/>
    
-   <icon src = "graph410/images/ldpi.png" 
+   <icon src = "images/ldpi.png" 
       gap:platform = "android" gap:qualifier = "ldpi" />
 		
-   <icon src = "graph410/images/mdpi.png" 
+   <icon src = "images/mdpi.png" 
       gap:platform = "android" gap:qualifier = "mdpi" />
 		
-   <icon src = "graph410/images/hdpi.png" 
+   <icon src = "images/hdpi.png" 
       gap:platform = "android" gap:qualifier = "hdpi" />
 		
-   <icon src = "graph410/images/xhdpi.png" 
+   <icon src = "images/xhdpi.png" 
       gap:platform = "android" gap:qualifier = "xhdpi" />
 		
-   <icon src = "graph410/images/xxhdpi.png" 
+   <icon src = "images/xxhdpi.png" 
       gap:platform = "android" gap:qualifier = "xxhdpi" />
    
-   <icon src = "graph410/images/Icon-72.png" gap:platform = "ios" gap:qualifier = ""/>
-   <icon src = "graph410/images/Icon-60.png" gap:platform = "ios" width = "60" height = "60" />
-   <icon src = "graph410/images/Icon-72.png" gap:platform = "ios" width = "72" height = "72" />
-   <icon src = "graph410/images/Icon-40.png" gap:platform = "ios" width = "40" height = "40" />
-   <icon src = "graph410/images/Icon-72@2x.png" gap:platform = "ios" width = "144" height = "144" />
+   <icon src = "images/Icon-72.png" gap:platform = "ios" gap:qualifier = ""/>
+   <icon src = "images/Icon-60.png" gap:platform = "ios" width = "60" height = "60" />
+   <icon src = "images/Icon-72.png" gap:platform = "ios" width = "72" height = "72" />
+   <icon src = "images/Icon-40.png" gap:platform = "ios" width = "40" height = "40" />
+   <icon src = "images/Icon-72@2x.png" gap:platform = "ios" width = "144" height = "144" />
    
 </widget>
